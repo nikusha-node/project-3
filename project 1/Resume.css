@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 150px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.right a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.img {
+    width: 570px;
+    height: 370px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #dcdcdc;
+    padding-left: 50px;
+    width: 400px;
+    height: 370px;
+}
+
+.border {
+    border-bottom: 3px solid red;
+    width: 30px;
+    color: #dcdcdc;
+    position: relative;
+    bottom: 50px;
+}
+
+.main-right .p{
+    position: relative;
+    bottom: 30px;
+}
+
+.main-right .pp {
+    position: relative;
+    bottom: 20px;
+}
+
+.main-right ul {
+    list-style-type: none;
+    position: relative;
+    bottom: 20px;
+}
+
+.main-right h1 {
+    color: red;
+
+}
+
+.main-1 {
+    display: flex;
+    gap: 300px;
+}
+
+.left-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 240px;
+    gap: 16px;
+}
+
+.left-1 h1 {
+    color: red;
+}
+
+.left-1 h5 {
+    opacity: 0.5;
+}
+
+.border-1 {
+    color: white;
+    border-bottom: 3px solid red;
+    width: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.right-1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.right-1 h1 {
+    color: red;
+
+}
+
+.border-2 {
+    border-bottom: 3px solid red;
+    color: white;
+    width: 30px;
+    position: relative;
+    bottom: 30px;    
+}
+
+.main-2 {
+    display: flex;
+    gap: 300px;   
+    padding-top: 40px;
+}
+ 
+.left-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    gap: 16px;
+}
+
+.left-2 h1 {
+    color: red;
+}
+
+.left-2 h5 {
+    opacity: 0.5;
+}
+
+.border-3 {
+    border-bottom: 3px solid red;
+    color: white;
+    width: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.border-4 {
+    border-bottom: 3px solid red;
+    color: white;
+    width: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+.right-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.right-2 h1 {
+    color: red;
+}
+
+.left-5 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    gap: 16px;
+    padding-top: 30px;
+}
+
+.left-5 h1 {
+    color: red;
+}
+
+.left-5 h5 {
+    opacity: 0.5;
+}
+
+.border-5 {
+    border-bottom: 3px solid red;
+    width: 30px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
+
+.left-4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    gap: 16px;
+    padding-top: 30px;
+}
+
+.left-4 h1 {
+    color: red;
+}
+
+.left-4 h5 {
+    opacity: 0.5;
+}
+
+.border-6 {
+    border-bottom: 3px solid red;
+    width: 30px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
+
+.left-6 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    gap: 16px;
+    padding-top: 30px;
+}
+
+.left-6 h1 {
+    color: red;
+}
+
+.left-6 h5 {
+    opacity: 0.5;
+} 
+
+.border-7 {
+    border-bottom: 3px solid red;
+    width: 30px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
+
+
+svg {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-main {
+    display: flex;
+    background-color: #dcdcdc;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.svg {
+    display: flex;
+    gap: 15px;
+}
